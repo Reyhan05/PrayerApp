@@ -3,8 +3,8 @@ class Settings {
   String school;
   String juristic;
   String highlat;
-  int fajr_angle;
-  int isha_angle;
+  double fajr_angle;
+  double isha_angle;
 
   Settings.fromJsonMap(Map<String, dynamic> map)
       : timeformat = map["timeformat"],

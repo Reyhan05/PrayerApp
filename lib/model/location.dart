@@ -1,12 +1,12 @@
 class Location {
   double latitude;
   double longitude;
-  int elevation;
+  double elevation;
   String city;
   String country;
   String country_code;
   String timezone;
-  int local_offset;
+  double local_offset;
 
   Location.fromJsonMap(Map<String, dynamic> map)
       : latitude = map["latitude"],
